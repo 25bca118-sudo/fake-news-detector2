@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 # Add project root to sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from truthlens_ai.config import (
+from config import (
     SECRET_KEY, DATABASE_PATH, UPLOAD_DIR, REPORTS_DIR, WEIGHTS, THRESHOLDS
 )
 from truthlens_ai.database.db_manager import init_db
